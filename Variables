@@ -1,1 +1,13 @@
+//syntax: DataType VariableName = Value;
 
+String name = "Manikanta"; 
+int age = 23;
+double height = 5.6;
+boolean isStudent = true;
+
+//System Output//
+
+print(name);
+print(age);
+print(height);
+print(isStudent);
