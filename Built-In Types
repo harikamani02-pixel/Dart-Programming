@@ -1,1 +1,26 @@
+void main(){
+//literals
+int age = 18;
+var name = "Sai";
+bool alive = true;
+
+//way to define string in Dart
+string s1 = "double";
+string s2 = 'Single';
+string s3 = 'it\'s okay'//Escape Character//
+string s4 = "it's okay"//In double quotes it Directly print as it is//
+
+//string Interpolation
+//numbers,bool,strings
+string name1 = "Manikanta";
+string message = "My Self $name1 ";//we can use dollar symbol in inner string //
+print("My Self $name1 ");//orelse we can print directly 
+print("My name length is "+name.length.toString());//To Convert Integer Into String We use toString() Method//
+
+let l = 150;
+let b = 180;
+string cal = "length =  $l and breadth = $b  sum is = ${l+b}";//To Perform Operations We use curly braces//
+ print(cal);//Output
+
+  
 
