@@ -1,13 +1,30 @@
 //syntax: DataType VariableName = Value;
 
-String name = "Manikanta"; 
+// numbers : int
 int age = 23;
+print(age);//output
+
+// strings
+String name = "Manikanta"; 
+string name2 ='Mani';// we can also print in single quotes//
+print(name);//output
+print(name2);//output
+
+// numbers : double
 double height = 5.6;
-boolean isStudent = true;
+print(height);//output
 
-//System Output//
+// boolean
+bool isStudent = true;
+print(isStudent);//output
 
-print(name);
-print(age);
-print(height);
-print(isStudent);
+//Null
+bool alive;
+bool dead = false;
+print(alive);//output 
+
+//var
+var name = "Dart Language";
+print(name);//output
+
+
