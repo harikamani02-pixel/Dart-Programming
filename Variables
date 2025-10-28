@@ -1,4 +1,5 @@
 //syntax: DataType VariableName = Value;
+void main() {
 
 // numbers : int
 int age = 23;
@@ -26,5 +27,5 @@ print(alive);//output
 //var
 var name = "Dart Language";
 print(name);//output
-
+}
 
