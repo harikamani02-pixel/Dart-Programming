@@ -986,6 +986,10 @@ All operations completed!
 ### Overview
 Collections in Dart are data structures that hold multiple values. Dart provides several built-in collection types: List, Set, Map, and Queue.
 
+ - **List – Ordered collection of items**
+ - **Set – Unordered collection of unique items**
+ - **Map – Collection of key-value pairs**
+
 ### 10 Examples of Collections in Dart
 
 #### Example 1: List Basics
