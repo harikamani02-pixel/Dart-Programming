@@ -2964,80 +2964,80 @@ Null safety in Dart ensures that variables cannot contain null unless explicitly
   print(name ?? 'Guest'); // Output: Guest
   }
   ```
-### Example-3 Null-aware Access ?.
-```dart
-void main() {
+  ### Example-3 Null-aware Access ?.
+  ```dart
+  void main() {
   String? name = 'Dart';
   print(name?.length); // Output: 4
-}
-```
-### Example-4  Null-aware Assignment ??=
-```dart
-void main() {
+  }
+  ```
+  ### Example-4  Null-aware Assignment ??=
+  ```dart
+  void main() {
   String? name;
   name ??= 'Fallback';
   print(name); // Output: Fallback
-}
-```
-### Example-5 Function with Nullable Parameter
-```dart
-void greet(String? name) {
+  }
+  ```
+  ### Example-5 Function with Nullable Parameter
+  ```dart
+  void greet(String? name) {
   print('Hello, ${name ?? 'Guest'}');
-}
+  }
 
-void main() {
+  void main() {
   greet(null); // Output: Hello, Guest
-}
-```
-### Example-6 Type Promotion
-```dart
-void printLength(String? text) {
+  }
+  ```
+  ### Example-6 Type Promotion
+  ```dart
+  void printLength(String? text) {
   if (text != null) {
     print(text.length); // Output: 5
   }
-}
+  }
 
-void main() {
+  void main() {
   printLength('Hello');
-}
-```
-### Example-7 Late Initialization
-```dart
-late String title;
+  }
+  ```
+  ### Example-7 Late Initialization
+  ```dart
+  late String title;
 
-void main() {
+  void main() {
   title = 'Dart Guide';
   print(title); // Output: Dart Guide
-}
-```
-### Example-8 Required Named Parameters
-```dart
-void display({required String message}) {
+  }
+  ```
+  ### Example-8 Required Named Parameters
+  ```dart
+  void display({required String message}) {
   print(message);
-}
+  }
 
-void main() {
+  void main() {
   display(message: 'Hello Dart'); // Output: Hello Dart
-}
-```
-### Example-9 Nullable List Elements
-```dart
-void main() {
+  }
+  ```
+  ### Example-9 Nullable List Elements
+  ```dart
+  void main() {
   List<String?> names = ['Alice', null, 'Bob'];
   print(names); // Output: [Alice, null, Bob]
-}
-```
-### Example-10 Extension Method on Nullable Type
-```dart
-extension StringExtension on String? {
+  }
+  ```
+  ### Example-10 Extension Method on Nullable Type
+  ```dart
+  extension StringExtension on String? {
   String orEmpty() => this ?? '';
-}
+  }
 
-void main() {
+  void main() {
   String? name = null;
   print(name.orEmpty()); // Output: (empty string)
-}
-```
+  }
+  ```
 
 
 
