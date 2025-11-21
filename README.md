@@ -2936,6 +2936,7 @@ Total area: 102.54
 Moving to position (10.0, 20.0)
 Drawing a red circle with radius 3.0 at (10.0, 20.0)
 ```
+---
 ## 7. Null Safety In Dart
 
 ### Overview 
@@ -3038,16 +3039,5 @@ Null safety in Dart ensures that variables cannot contain null unless explicitly
   print(name.orEmpty()); // Output: (empty string)
   }
   ```
-
-
-
-
-
-
-
-
-
-
-
-
-
+  ---
+  
